@@ -34,7 +34,7 @@ void init_ADC(void);
 void Read_Temp (void);
 void Cal_PID(void);
 
-int Temperature;
+int realValue;
 int setPoint = 37;
 
 int PID_error = 0;
@@ -135,7 +135,7 @@ int main()
     {
         Read_Temp();
         
-        if(Temperature > setPoint)
+        if(realValue > setPoint)
         {
             RB6 = 0;
             Servo_MoveTo(90);
@@ -156,13 +156,12 @@ int main()
         sprintf(str, "Set  = %d ", setPoint);
         Lcd_Set_Cursor(1,1);
         Lcd_Write_String(str);
-        sprintf(str, "Real = %d ", Temperature);        
+        sprintf(str, "Real = %d ", realValue);        
         Lcd_Set_Cursor(2,1);
         Lcd_Write_String(str);
         sprintf(str, "%d ", PID_value);        
         Lcd_Set_Cursor(1,12);
         Lcd_Write_String(str);
-        //__delay_us(1000);
     }
     return 0;
 }
@@ -188,12 +187,12 @@ void Read_Temp (void)// doc len 7 doan
     while(ADCON0bits.GO_nDONE);
     TempValue = ADRESH*256 + ADRESL;
     TempValue = 5000.0f / 1023 * TempValue;
-    Temperature = TempValue / 10;
+    realValue = TempValue / 10;
 }
 
 void Cal_PID(void)
 {
-    PID_error = setPoint - Temperature;
+    PID_error = setPoint - realValue;
     if(PID_error > 30)                              //integral constant will only affect errors below 30ºC             
         PID_i = 0;
     PID_p = kp * PID_error;                         //Calculate the P value
@@ -274,10 +273,10 @@ void Servo_MoveTo(int a)
 {
     if(a==0)
     {
-        CCPR1 = 0xB430; // 0xB7B4;
+        CCPR1 = 0xB430; 
     }
     if(a==90)
     {
-        CCPR1 = 0xB7A8;  //0xB9BA;
+        CCPR1 = 0xB7A8;  
     }
 }

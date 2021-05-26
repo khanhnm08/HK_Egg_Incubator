@@ -2079,13 +2079,12 @@ void Lcd_Shift_Left()
 #pragma config CP = OFF
 
 
-int map(int x, int in_min, int in_max, int out_min, int out_max);
 void Servo_MoveTo(int a);
 void init_ADC(void);
 void Read_Temp (void);
 void Cal_PID(void);
 
-int Temperature;
+int realValue;
 int setPoint = 37;
 
 int PID_error = 0;
@@ -2186,7 +2185,7 @@ int main()
     {
         Read_Temp();
 
-        if(Temperature > setPoint)
+        if(realValue > setPoint)
         {
             RB6 = 0;
             Servo_MoveTo(90);
@@ -2207,13 +2206,12 @@ int main()
         sprintf(str, "Set  = %d ", setPoint);
         Lcd_Set_Cursor(1,1);
         Lcd_Write_String(str);
-        sprintf(str, "Real = %d ", Temperature);
+        sprintf(str, "Real = %d ", realValue);
         Lcd_Set_Cursor(2,1);
         Lcd_Write_String(str);
         sprintf(str, "%d ", PID_value);
         Lcd_Set_Cursor(1,12);
         Lcd_Write_String(str);
-
     }
     return 0;
 }
@@ -2239,12 +2237,12 @@ void Read_Temp (void)
     while(ADCON0bits.GO_nDONE);
     TempValue = ADRESH*256 + ADRESL;
     TempValue = 5000.0f / 1023 * TempValue;
-    Temperature = TempValue / 10;
+    realValue = TempValue / 10;
 }
 
 void Cal_PID(void)
 {
-    PID_error = setPoint - Temperature;
+    PID_error = setPoint - realValue;
     if(PID_error > 30)
         PID_i = 0;
     PID_p = kp * PID_error;
@@ -2319,16 +2317,6 @@ void __attribute__((picinterrupt(("")))) ISR(void)
         TMR0IE = 1;
         INTF = 0;
     }
-}
-
-int map(int x,int in_min,int in_max, int out_min,int out_max)
-{
-    x = (x - in_min)*(out_max - out_min) / (in_max - in_min) + out_min;
-    if(x<out_min)
-        x = out_min;
-    if(x>out_max)
-        x = out_max;
-    return x;
 }
 
 void Servo_MoveTo(int a)
