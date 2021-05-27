@@ -2102,6 +2102,7 @@ unsigned int cnt0 = 0;
 unsigned int cnt2 = 0;
 int tmp = 0;
 unsigned int samp = 0;
+
 int main()
 {
     char str[16];

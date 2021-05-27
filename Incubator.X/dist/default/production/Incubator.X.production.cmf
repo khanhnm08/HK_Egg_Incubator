@@ -50,7 +50,7 @@ dataBANK1 BANK1 1 B2 B2 2 1
 clrtext CODE 0 AAF AAF 8 2
 bssCOMMON COMMON 1 75 75 4 1
 config CONFIG 4 2007 2007 1 2
-$C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
+$C:\Users\Admin\AppData\Local\Temp\xcAs5p8.o
 reset_vec CODE 0 0 0 3 2
 end_init CODE 0 C C 3 2
 config CONFIG 4 2007 2007 1 2
@@ -110,89 +110,89 @@ STRING 1000-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\Incubator.X.production.o
-F cinit CODE >593:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-F cinit CODE >596:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-F cinit CODE >675:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-10 cinit CODE >676:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-11 cinit CODE >677:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-16 cinit CODE >678:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-17 cinit CODE >679:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-1C cinit CODE >680:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-1D cinit CODE >684:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-1E cinit CODE >685:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-1F cinit CODE >686:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-24 cinit CODE >687:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-25 cinit CODE >688:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-2A cinit CODE >689:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-2B cinit CODE >690:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-30 cinit CODE >691:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-31 cinit CODE >692:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-36 cinit CODE >693:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-37 cinit CODE >694:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-3C cinit CODE >695:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-3D cinit CODE >696:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-42 cinit CODE >697:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-43 cinit CODE >716:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-44 cinit CODE >717:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-45 cinit CODE >718:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-46 cinit CODE >719:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-47 cinit CODE >722:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-48 cinit CODE >723:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-49 cinit CODE >724:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-4A cinit CODE >725:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-4B cinit CODE >726:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-50 cinit CODE >729:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-51 cinit CODE >730:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-52 cinit CODE >731:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-53 cinit CODE >732:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-54 cinit CODE >738:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-54 cinit CODE >740:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-55 cinit CODE >741:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-4 intentry CODE >211:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E02 text22 CODE >211:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E02 text22 CODE >213:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E06 text22 CODE >215:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E0C text22 CODE >217:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E19 text22 CODE >218:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E1D text22 CODE >218:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E21 text22 CODE >220:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E25 text22 CODE >222:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E32 text22 CODE >223:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E36 text22 CODE >223:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E3A text22 CODE >225:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E3B text22 CODE >228:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E3F text22 CODE >230:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E43 text22 CODE >231:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E45 text22 CODE >231:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E49 text22 CODE >232:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E4B text22 CODE >232:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E4F text22 CODE >232:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E53 text22 CODE >234:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E54 text22 CODE >235:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E58 text22 CODE >236:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E5B text22 CODE >237:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E5D text22 CODE >238:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E5E text22 CODE >240:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E5F text22 CODE >243:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E65 text22 CODE >245:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E66 text22 CODE >246:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E67 text22 CODE >247:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E69 text22 CODE >248:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E6D text22 CODE >249:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E6E text22 CODE >252:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E72 text22 CODE >254:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E74 text22 CODE >255:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E76 text22 CODE >255:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E7A text22 CODE >256:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E7D text22 CODE >256:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E83 text22 CODE >258:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E85 text22 CODE >259:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E87 text22 CODE >260:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E8B text22 CODE >262:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E8C text22 CODE >265:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E90 text22 CODE >267:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E91 text22 CODE >268:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E92 text22 CODE >270:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+F cinit CODE >593:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+F cinit CODE >596:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+F cinit CODE >675:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+10 cinit CODE >676:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+11 cinit CODE >677:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+16 cinit CODE >678:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+17 cinit CODE >679:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+1C cinit CODE >680:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+1D cinit CODE >684:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+1E cinit CODE >685:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+1F cinit CODE >686:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+24 cinit CODE >687:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+25 cinit CODE >688:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+2A cinit CODE >689:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+2B cinit CODE >690:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+30 cinit CODE >691:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+31 cinit CODE >692:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+36 cinit CODE >693:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+37 cinit CODE >694:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+3C cinit CODE >695:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+3D cinit CODE >696:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+42 cinit CODE >697:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+43 cinit CODE >716:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+44 cinit CODE >717:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+45 cinit CODE >718:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+46 cinit CODE >719:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+47 cinit CODE >722:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+48 cinit CODE >723:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+49 cinit CODE >724:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+4A cinit CODE >725:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+4B cinit CODE >726:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+50 cinit CODE >729:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+51 cinit CODE >730:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+52 cinit CODE >731:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+53 cinit CODE >732:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+54 cinit CODE >738:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+54 cinit CODE >740:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+55 cinit CODE >741:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+4 intentry CODE >212:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E02 text22 CODE >212:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E02 text22 CODE >214:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E06 text22 CODE >216:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E0C text22 CODE >218:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E19 text22 CODE >219:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E1D text22 CODE >219:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E21 text22 CODE >221:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E25 text22 CODE >223:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E32 text22 CODE >224:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E36 text22 CODE >224:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E3A text22 CODE >226:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E3B text22 CODE >229:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E3F text22 CODE >231:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E43 text22 CODE >232:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E45 text22 CODE >232:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E49 text22 CODE >233:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E4B text22 CODE >233:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E4F text22 CODE >233:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E53 text22 CODE >235:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E54 text22 CODE >236:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E58 text22 CODE >237:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E5B text22 CODE >238:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E5D text22 CODE >239:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E5E text22 CODE >241:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E5F text22 CODE >244:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E65 text22 CODE >246:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E66 text22 CODE >247:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E67 text22 CODE >248:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E69 text22 CODE >249:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E6D text22 CODE >250:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E6E text22 CODE >253:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E72 text22 CODE >255:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E74 text22 CODE >256:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E76 text22 CODE >256:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E7A text22 CODE >257:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E7D text22 CODE >257:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E83 text22 CODE >259:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E85 text22 CODE >260:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E87 text22 CODE >261:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E8B text22 CODE >263:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E8C text22 CODE >266:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E90 text22 CODE >268:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E91 text22 CODE >269:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E92 text22 CODE >271:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
 D1D text21 CODE >5:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
 D1D text21 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
 D20 text21 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
@@ -244,34 +244,34 @@ B6C text20 CODE >48:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\
 B6E text20 CODE >49:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
 B74 text20 CODE >52:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
 B78 text20 CODE >53:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
-E99 text19 CODE >193:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E99 text19 CODE >195:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-E9F text19 CODE >195:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-EA3 text19 CODE >196:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-EA8 text19 CODE >196:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-EAC text19 CODE >196:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-EB0 text19 CODE >197:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-EB2 text19 CODE >198:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-EC7 text19 CODE >199:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-EDA text19 CODE >199:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-EDE text19 CODE >200:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-EE2 text19 CODE >200:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-EE6 text19 CODE >201:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-EEA text19 CODE >201:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-EF2 text19 CODE >201:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-EF6 text19 CODE >202:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-EFA text19 CODE >203:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-EFF text19 CODE >203:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-F03 text19 CODE >203:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-F07 text19 CODE >204:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-F0D text19 CODE >205:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-F14 text19 CODE >205:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-F18 text19 CODE >205:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-F1C text19 CODE >206:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-F22 text19 CODE >207:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-F2C text19 CODE >207:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-F30 text19 CODE >208:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-F43 text19 CODE >209:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E99 text19 CODE >194:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E99 text19 CODE >196:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+E9F text19 CODE >196:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+EA3 text19 CODE >197:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+EA8 text19 CODE >197:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+EAC text19 CODE >197:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+EB0 text19 CODE >198:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+EB2 text19 CODE >199:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+EC7 text19 CODE >200:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+EDA text19 CODE >200:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+EDE text19 CODE >201:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+EE2 text19 CODE >201:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+EE6 text19 CODE >202:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+EEA text19 CODE >202:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+EF2 text19 CODE >202:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+EF6 text19 CODE >203:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+EFA text19 CODE >204:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+EFF text19 CODE >204:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+F03 text19 CODE >204:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+F07 text19 CODE >205:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+F0D text19 CODE >206:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+F14 text19 CODE >206:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+F18 text19 CODE >206:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+F1C text19 CODE >207:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+F22 text19 CODE >208:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+F2C text19 CODE >208:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+F30 text19 CODE >209:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+F43 text19 CODE >210:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
 B0D text18 CODE >2:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X/lcd.h
 B10 text18 CODE >4:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X/lcd.h
 B14 text18 CODE >5:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X/lcd.h
@@ -761,28 +761,28 @@ FED text7 CODE >41:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\x
 FF6 text7 CODE >42:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
 FF7 text7 CODE >43:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
 FFF text7 CODE >44:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
-787 text6 CODE >183:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-787 text6 CODE >185:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+787 text6 CODE >184:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
 787 text6 CODE >186:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-78A text6 CODE >187:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-78E text6 CODE >188:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-79C text6 CODE >188:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-7B5 text6 CODE >189:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-7D4 text6 CODE >190:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-7FE text6 CODE >191:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-AD9 text5 CODE >272:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-AD9 text5 CODE >274:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-AE1 text5 CODE >276:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-AE5 text5 CODE >278:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-AEC text5 CODE >280:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-AF0 text5 CODE >282:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-AC4 text4 CODE >169:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-AC4 text4 CODE >172:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-ACB text4 CODE >174:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-ACE text4 CODE >176:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-AD1 text4 CODE >178:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-AD5 text4 CODE >180:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-AD8 text4 CODE >181:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+787 text6 CODE >187:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+78A text6 CODE >188:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+78E text6 CODE >189:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+79C text6 CODE >189:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+7B5 text6 CODE >190:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+7D4 text6 CODE >191:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+7FE text6 CODE >192:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+AD9 text5 CODE >273:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+AD9 text5 CODE >275:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+AE1 text5 CODE >277:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+AE5 text5 CODE >279:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+AEC text5 CODE >281:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+AF0 text5 CODE >283:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+AC4 text4 CODE >170:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+AC4 text4 CODE >173:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+ACB text4 CODE >175:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+ACE text4 CODE >177:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+AD1 text4 CODE >179:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+AD5 text4 CODE >181:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+AD8 text4 CODE >182:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
 C1B text3 CODE >5:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
 C1B text3 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
 C1F text3 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
@@ -860,80 +860,80 @@ BDD text2 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\l
 770 text1 CODE >553:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
 782 text1 CODE >1564:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
 786 text1 CODE >1567:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-596 maintext CODE >55:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-596 maintext CODE >60:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-59B maintext CODE >61:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-59E maintext CODE >65:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-59F maintext CODE >66:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5A2 maintext CODE >67:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5A4 maintext CODE >68:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5A7 maintext CODE >69:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5AA maintext CODE >70:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5B2 maintext CODE >74:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5B5 maintext CODE >75:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5B8 maintext CODE >76:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5BD maintext CODE >80:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5C0 maintext CODE >81:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5C1 maintext CODE >86:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5C2 maintext CODE >90:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5C3 maintext CODE >91:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5C4 maintext CODE >92:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5C7 maintext CODE >93:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5C8 maintext CODE >94:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5CB maintext CODE >95:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5CE maintext CODE >100:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5D0 maintext CODE >101:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5D3 maintext CODE >106:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5D9 maintext CODE >107:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5DA maintext CODE >108:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5DB maintext CODE >109:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5DC maintext CODE >110:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5DD maintext CODE >115:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5DF maintext CODE >116:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5E1 maintext CODE >121:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5E2 maintext CODE >122:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5E3 maintext CODE >123:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5E6 maintext CODE >124:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5E7 maintext CODE >125:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5E8 maintext CODE >126:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5E9 maintext CODE >127:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5EA maintext CODE >128:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5EB maintext CODE >129:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5EE maintext CODE >130:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5F1 maintext CODE >131:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5F4 maintext CODE >136:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-5F9 maintext CODE >138:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-601 maintext CODE >138:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-605 maintext CODE >138:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-609 maintext CODE >140:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-60C maintext CODE >141:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-615 maintext CODE >142:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-616 maintext CODE >143:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-616 maintext CODE >145:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-619 maintext CODE >146:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-621 maintext CODE >149:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-629 maintext CODE >151:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-62E maintext CODE >152:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-632 maintext CODE >155:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-637 maintext CODE >156:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-647 maintext CODE >157:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-651 maintext CODE >158:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-657 maintext CODE >159:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-667 maintext CODE >160:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-671 maintext CODE >161:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-677 maintext CODE >162:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-687 maintext CODE >163:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-693 maintext CODE >164:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-AAF clrtext CODE >703:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-AAF clrtext CODE >704:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-AB0 clrtext CODE >705:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-AB0 clrtext CODE >706:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-AB1 clrtext CODE >707:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-AB2 clrtext CODE >708:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-AB3 clrtext CODE >709:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-AB4 clrtext CODE >710:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-AB5 clrtext CODE >711:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
-AB6 clrtext CODE >712:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+596 maintext CODE >56:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+596 maintext CODE >61:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+59B maintext CODE >62:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+59E maintext CODE >66:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+59F maintext CODE >67:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5A2 maintext CODE >68:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5A4 maintext CODE >69:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5A7 maintext CODE >70:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5AA maintext CODE >71:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5B2 maintext CODE >75:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5B5 maintext CODE >76:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5B8 maintext CODE >77:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5BD maintext CODE >81:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5C0 maintext CODE >82:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5C1 maintext CODE >87:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5C2 maintext CODE >91:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5C3 maintext CODE >92:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5C4 maintext CODE >93:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5C7 maintext CODE >94:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5C8 maintext CODE >95:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5CB maintext CODE >96:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5CE maintext CODE >101:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5D0 maintext CODE >102:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5D3 maintext CODE >107:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5D9 maintext CODE >108:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5DA maintext CODE >109:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5DB maintext CODE >110:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5DC maintext CODE >111:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5DD maintext CODE >116:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5DF maintext CODE >117:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5E1 maintext CODE >122:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5E2 maintext CODE >123:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5E3 maintext CODE >124:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5E6 maintext CODE >125:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5E7 maintext CODE >126:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5E8 maintext CODE >127:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5E9 maintext CODE >128:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5EA maintext CODE >129:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5EB maintext CODE >130:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5EE maintext CODE >131:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5F1 maintext CODE >132:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5F4 maintext CODE >137:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+5F9 maintext CODE >139:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+601 maintext CODE >139:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+605 maintext CODE >139:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+609 maintext CODE >141:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+60C maintext CODE >142:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+615 maintext CODE >143:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+616 maintext CODE >144:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+616 maintext CODE >146:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+619 maintext CODE >147:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+621 maintext CODE >150:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+629 maintext CODE >152:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+62E maintext CODE >153:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+632 maintext CODE >156:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+637 maintext CODE >157:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+647 maintext CODE >158:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+651 maintext CODE >159:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+657 maintext CODE >160:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+667 maintext CODE >161:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+671 maintext CODE >162:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+677 maintext CODE >163:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+687 maintext CODE >164:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+693 maintext CODE >165:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
+AAF clrtext CODE >703:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+AAF clrtext CODE >704:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+AB0 clrtext CODE >705:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+AB0 clrtext CODE >706:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+AB1 clrtext CODE >707:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+AB2 clrtext CODE >708:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+AB3 clrtext CODE >709:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+AB4 clrtext CODE >710:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+AB5 clrtext CODE >711:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
+AB6 clrtext CODE >712:C:\Users\Admin\AppData\Local\Temp\xcAs5p8.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -973,14 +973,14 @@ _RBIF 58 0 ABS 0 - dist/default/production\Incubator.X.production.o
 _TMR0 1 0 ABS 0 - dist/default/production\Incubator.X.production.o
 _TMR1 E 0 ABS 0 - dist/default/production\Incubator.X.production.o
 _TMR2 11 0 ABS 0 - dist/default/production\Incubator.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
+___sp 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAs5p8.o
 _cnt0 52 0 BANK0 1 bssBANK0 dist/default/production\Incubator.X.production.o
 _cnt2 50 0 BANK0 1 bssBANK0 dist/default/production\Incubator.X.production.o
 _main B2C 0 CODE 0 maintext dist/default/production\Incubator.X.production.o
 _samp 4C 0 BANK0 1 bssBANK0 dist/default/production\Incubator.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production\Incubator.X.production.o
 _Lcd_Write_Char 17BC 0 CODE 0 text13 dist/default/production\Incubator.X.production.o
-start 18 0 CODE 0 init C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
+start 18 0 CODE 0 init C:\Users\Admin\AppData\Local\Temp\xcAs5p8.o
 ___flmul@aexp 37 0 BANK0 1 cstackBANK0 dist/default/production\Incubator.X.production.o
 ___flmul@bexp 3C 0 BANK0 1 cstackBANK0 dist/default/production\Incubator.X.production.o
 ___flmul@prod 3D 0 BANK0 1 cstackBANK0 dist/default/production\Incubator.X.production.o
@@ -1000,12 +1000,12 @@ Lcd_Write_Char@temp 22 0 BANK0 1 cstackBANK0 dist/default/production\Incubator.X
 __LidataBANK0 0 0 ABS 0 idataBANK0 -
 __LidataBANK1 0 0 ABS 0 idataBANK1 -
 __Hpowerup 0 0 CODE 0 powerup -
-intlevel0 0 0 ENTRY 0 functab C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\Admin\AppData\Local\Temp\xcAs5p8.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\Admin\AppData\Local\Temp\xcAs5p8.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\Admin\AppData\Local\Temp\xcAs5p8.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\Admin\AppData\Local\Temp\xcAs5p8.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\Admin\AppData\Local\Temp\xcAs5p8.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\Admin\AppData\Local\Temp\xcAs5p8.o
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
 _init_ADC 1588 0 CODE 0 text4 dist/default/production\Incubator.X.production.o
 wtemp0 7E 0 ABS 0 - dist/default/production\Incubator.X.production.o
@@ -1043,8 +1043,8 @@ __end_of___lwmod 17BC 0 CODE 0 text2 dist/default/production\Incubator.X.product
 _INTEDG 40E 0 ABS 0 - dist/default/production\Incubator.X.production.o
 __Umul8_16@multiplicand 20 0 BANK0 1 cstackBANK0 dist/default/production\Incubator.X.production.o
 _OPTION_REG 81 0 ABS 0 - dist/default/production\Incubator.X.production.o
-___stackhi 0 0 ABS 0 - C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
-___stacklo 0 0 ABS 0 - C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
+___stackhi 0 0 ABS 0 - C:\Users\Admin\AppData\Local\Temp\xcAs5p8.o
+___stacklo 0 0 ABS 0 - C:\Users\Admin\AppData\Local\Temp\xcAs5p8.o
 _dpowers 100C 0 STRING 0 strings dist/default/production\Incubator.X.production.o
 __end_of_Read_Temp FFE 0 CODE 0 text6 dist/default/production\Incubator.X.production.o
 __size_of_Read_Temp 0 0 ABS 0 - dist/default/production\Incubator.X.production.o
@@ -1079,7 +1079,7 @@ _TRISB6 436 0 ABS 0 - dist/default/production\Incubator.X.production.o
 _TRISB7 437 0 ABS 0 - dist/default/production\Incubator.X.production.o
 _TRISC2 43A 0 ABS 0 - dist/default/production\Incubator.X.production.o
 __size_of_Lcd_Cmd 0 0 ABS 0 - dist/default/production\Incubator.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
+___int_sp 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAs5p8.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -1154,7 +1154,7 @@ __size_of_Lcd_Write_String 0 0 ABS 0 - dist/default/production\Incubator.X.produ
 __stringtab 1000 0 STRING 0 strings dist/default/production\Incubator.X.production.o
 Lcd_Write_String@a 28 0 BANK0 1 cstackBANK0 dist/default/production\Incubator.X.production.o
 Lcd_Write_String@i 26 0 BANK0 1 cstackBANK0 dist/default/production\Incubator.X.production.o
-reset_vec 0 0 CODE 0 reset_vec C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Admin\AppData\Local\Temp\xcAs5p8.o
 __size_of_Lcd_Clear 0 0 ABS 0 - dist/default/production\Incubator.X.production.o
 __end_of___xxtofl 2000 0 CODE 0 text7 dist/default/production\Incubator.X.production.o
 __pdataBANK0 5E 0 BANK0 1 dataBANK0 dist/default/production\Incubator.X.production.o

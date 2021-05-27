@@ -194,13 +194,19 @@ void Read_Temp (void)// doc len 7 doan
 void Cal_PID(void)
 {
     PID_error = setPoint - realValue;
-    if(PID_error > 30)                              //integral constant will only affect errors below 30ºC             
+    //integral constant only affect errors below 30ºC  
+    if(PID_error > 30)                                   
         PID_i = 0;
-    PID_p = kp * PID_error;                         //Calculate the P value
-    PID_i = PID_i + (ki * PID_error);               //Calculate the I value
-    PID_d = kd*(PID_error - previous_error);  //Calculate the D value
-    PID_value = PID_p + PID_i + PID_d;                      //Calculate total PID value
-    previous_error = PID_error; //Remember to store the previous error.
+    //Calculate the P value
+    PID_p = kp * PID_error;       
+    //Calculate the I value
+    PID_i = PID_i + (ki * PID_error);         
+    //Calculate the D value
+    PID_d = kd*(PID_error - previous_error);  
+    //Calculate total PID value
+    PID_value = PID_p + PID_i + PID_d;   
+   //Store the previous error.
+    previous_error = PID_error;               
     if(PID_value < 1600)
         PID_value = 1600;       
     if(PID_value > 8400)
