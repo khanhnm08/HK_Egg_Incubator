@@ -50,7 +50,7 @@ dataBANK1 BANK1 1 B2 B2 2 1
 clrtext CODE 0 AAF AAF 8 2
 bssCOMMON COMMON 1 75 75 4 1
 config CONFIG 4 2007 2007 1 2
-$C:\Users\Admin\AppData\Local\Temp\xcAs35k.o
+$C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
 reset_vec CODE 0 0 0 3 2
 end_init CODE 0 C C 3 2
 config CONFIG 4 2007 2007 1 2
@@ -110,44 +110,44 @@ STRING 1000-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\Incubator.X.production.o
-F cinit CODE >593:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-F cinit CODE >596:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-F cinit CODE >675:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-10 cinit CODE >676:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-11 cinit CODE >677:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-16 cinit CODE >678:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-17 cinit CODE >679:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-1C cinit CODE >680:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-1D cinit CODE >684:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-1E cinit CODE >685:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-1F cinit CODE >686:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-24 cinit CODE >687:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-25 cinit CODE >688:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-2A cinit CODE >689:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-2B cinit CODE >690:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-30 cinit CODE >691:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-31 cinit CODE >692:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-36 cinit CODE >693:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-37 cinit CODE >694:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-3C cinit CODE >695:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-3D cinit CODE >696:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-42 cinit CODE >697:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-43 cinit CODE >716:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-44 cinit CODE >717:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-45 cinit CODE >718:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-46 cinit CODE >719:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-47 cinit CODE >722:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-48 cinit CODE >723:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-49 cinit CODE >724:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-4A cinit CODE >725:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-4B cinit CODE >726:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-50 cinit CODE >729:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-51 cinit CODE >730:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-52 cinit CODE >731:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-53 cinit CODE >732:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-54 cinit CODE >738:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-54 cinit CODE >740:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-55 cinit CODE >741:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
+F cinit CODE >593:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+F cinit CODE >596:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+F cinit CODE >675:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+10 cinit CODE >676:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+11 cinit CODE >677:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+16 cinit CODE >678:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+17 cinit CODE >679:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+1C cinit CODE >680:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+1D cinit CODE >684:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+1E cinit CODE >685:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+1F cinit CODE >686:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+24 cinit CODE >687:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+25 cinit CODE >688:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+2A cinit CODE >689:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+2B cinit CODE >690:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+30 cinit CODE >691:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+31 cinit CODE >692:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+36 cinit CODE >693:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+37 cinit CODE >694:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+3C cinit CODE >695:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+3D cinit CODE >696:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+42 cinit CODE >697:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+43 cinit CODE >716:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+44 cinit CODE >717:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+45 cinit CODE >718:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+46 cinit CODE >719:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+47 cinit CODE >722:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+48 cinit CODE >723:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+49 cinit CODE >724:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+4A cinit CODE >725:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+4B cinit CODE >726:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+50 cinit CODE >729:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+51 cinit CODE >730:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+52 cinit CODE >731:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+53 cinit CODE >732:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+54 cinit CODE >738:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+54 cinit CODE >740:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+55 cinit CODE >741:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
 4 intentry CODE >211:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
 E02 text22 CODE >211:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
 E02 text22 CODE >213:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
@@ -924,16 +924,16 @@ BDD text2 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\l
 677 maintext CODE >162:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
 687 maintext CODE >163:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
 693 maintext CODE >164:D:\Mon hoc\Ky thuat vi xu ly\HK_Egg_Incubator\Incubator.X\main.c
-AAF clrtext CODE >703:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-AAF clrtext CODE >704:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-AB0 clrtext CODE >705:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-AB0 clrtext CODE >706:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-AB1 clrtext CODE >707:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-AB2 clrtext CODE >708:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-AB3 clrtext CODE >709:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-AB4 clrtext CODE >710:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-AB5 clrtext CODE >711:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
-AB6 clrtext CODE >712:C:\Users\Admin\AppData\Local\Temp\xcAs35k.s
+AAF clrtext CODE >703:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+AAF clrtext CODE >704:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+AB0 clrtext CODE >705:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+AB0 clrtext CODE >706:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+AB1 clrtext CODE >707:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+AB2 clrtext CODE >708:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+AB3 clrtext CODE >709:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+AB4 clrtext CODE >710:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+AB5 clrtext CODE >711:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
+AB6 clrtext CODE >712:C:\Users\Admin\AppData\Local\Temp\xcAs4dg.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -973,14 +973,14 @@ _RBIF 58 0 ABS 0 - dist/default/production\Incubator.X.production.o
 _TMR0 1 0 ABS 0 - dist/default/production\Incubator.X.production.o
 _TMR1 E 0 ABS 0 - dist/default/production\Incubator.X.production.o
 _TMR2 11 0 ABS 0 - dist/default/production\Incubator.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAs35k.o
+___sp 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
 _cnt0 52 0 BANK0 1 bssBANK0 dist/default/production\Incubator.X.production.o
 _cnt2 50 0 BANK0 1 bssBANK0 dist/default/production\Incubator.X.production.o
 _main B2C 0 CODE 0 maintext dist/default/production\Incubator.X.production.o
 _samp 4C 0 BANK0 1 bssBANK0 dist/default/production\Incubator.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production\Incubator.X.production.o
 _Lcd_Write_Char 17BC 0 CODE 0 text13 dist/default/production\Incubator.X.production.o
-start 18 0 CODE 0 init C:\Users\Admin\AppData\Local\Temp\xcAs35k.o
+start 18 0 CODE 0 init C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
 ___flmul@aexp 37 0 BANK0 1 cstackBANK0 dist/default/production\Incubator.X.production.o
 ___flmul@bexp 3C 0 BANK0 1 cstackBANK0 dist/default/production\Incubator.X.production.o
 ___flmul@prod 3D 0 BANK0 1 cstackBANK0 dist/default/production\Incubator.X.production.o
@@ -1000,12 +1000,12 @@ Lcd_Write_Char@temp 22 0 BANK0 1 cstackBANK0 dist/default/production\Incubator.X
 __LidataBANK0 0 0 ABS 0 idataBANK0 -
 __LidataBANK1 0 0 ABS 0 idataBANK1 -
 __Hpowerup 0 0 CODE 0 powerup -
-intlevel0 0 0 ENTRY 0 functab C:\Users\Admin\AppData\Local\Temp\xcAs35k.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\Admin\AppData\Local\Temp\xcAs35k.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\Admin\AppData\Local\Temp\xcAs35k.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\Admin\AppData\Local\Temp\xcAs35k.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\Admin\AppData\Local\Temp\xcAs35k.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\Admin\AppData\Local\Temp\xcAs35k.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
 _init_ADC 1588 0 CODE 0 text4 dist/default/production\Incubator.X.production.o
 wtemp0 7E 0 ABS 0 - dist/default/production\Incubator.X.production.o
@@ -1043,8 +1043,8 @@ __end_of___lwmod 17BC 0 CODE 0 text2 dist/default/production\Incubator.X.product
 _INTEDG 40E 0 ABS 0 - dist/default/production\Incubator.X.production.o
 __Umul8_16@multiplicand 20 0 BANK0 1 cstackBANK0 dist/default/production\Incubator.X.production.o
 _OPTION_REG 81 0 ABS 0 - dist/default/production\Incubator.X.production.o
-___stackhi 0 0 ABS 0 - C:\Users\Admin\AppData\Local\Temp\xcAs35k.o
-___stacklo 0 0 ABS 0 - C:\Users\Admin\AppData\Local\Temp\xcAs35k.o
+___stackhi 0 0 ABS 0 - C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
+___stacklo 0 0 ABS 0 - C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
 _dpowers 100C 0 STRING 0 strings dist/default/production\Incubator.X.production.o
 __end_of_Read_Temp FFE 0 CODE 0 text6 dist/default/production\Incubator.X.production.o
 __size_of_Read_Temp 0 0 ABS 0 - dist/default/production\Incubator.X.production.o
@@ -1079,7 +1079,7 @@ _TRISB6 436 0 ABS 0 - dist/default/production\Incubator.X.production.o
 _TRISB7 437 0 ABS 0 - dist/default/production\Incubator.X.production.o
 _TRISC2 43A 0 ABS 0 - dist/default/production\Incubator.X.production.o
 __size_of_Lcd_Cmd 0 0 ABS 0 - dist/default/production\Incubator.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAs35k.o
+___int_sp 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -1154,7 +1154,7 @@ __size_of_Lcd_Write_String 0 0 ABS 0 - dist/default/production\Incubator.X.produ
 __stringtab 1000 0 STRING 0 strings dist/default/production\Incubator.X.production.o
 Lcd_Write_String@a 28 0 BANK0 1 cstackBANK0 dist/default/production\Incubator.X.production.o
 Lcd_Write_String@i 26 0 BANK0 1 cstackBANK0 dist/default/production\Incubator.X.production.o
-reset_vec 0 0 CODE 0 reset_vec C:\Users\Admin\AppData\Local\Temp\xcAs35k.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Admin\AppData\Local\Temp\xcAs4dg.o
 __size_of_Lcd_Clear 0 0 ABS 0 - dist/default/production\Incubator.X.production.o
 __end_of___xxtofl 2000 0 CODE 0 text7 dist/default/production\Incubator.X.production.o
 __pdataBANK0 5E 0 BANK0 1 dataBANK0 dist/default/production\Incubator.X.production.o
