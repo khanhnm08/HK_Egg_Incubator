@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdint.h>
+#include <stdlib.h>
 #define _XTAL_FREQ 16000000
 
 // define pin for LCD1602.
@@ -38,31 +39,36 @@ int realValue;
 int setPoint = 37;
 
 int PID_error = 0;
-int previous_error = 0;
+int PID_error_1 = 0;
+int PID_error_2 = 0;
+
 int PID_value = 0;
-int kp = 303;   
-int ki= 7.2;   
-int kd = 1.04;
+int PID_value_1 = 0;
+
+int kp = 203;   
+int ki = 7;   
+int kd = 1;
 int PID_p = 0;    
 int PID_i = 0;    
 int PID_d = 0; 
+unsigned int T = 1000;
 
 unsigned int cnt1 = 0;
 unsigned int cnt0 = 0;
 unsigned int cnt2 = 0;
-int tmp = 0;
 unsigned int samp = 0;
+
 
 int main()
 {
     char str[16];
     
-    /*-------------------- Init for read Temperature  ------------------------*/
+    /*------------------------[ Config ADC_LM35 ]-----------------------------*/
     init_ADC(); 
     TRISA0 = 1; 
     //End.
      
-    /*---------------------- Init for control Servo  -------------------------*/
+    /*--------------------------[ Config Servo ]------------------------------*/
     TRISC2 = 0;
     RC2 = 1;
     CCP1CON = 0x09;    //Compare mode, clear output on match.
@@ -71,7 +77,7 @@ int main()
     Servo_MoveTo(0);
     //End.
     
-    /*--------------------------- Init for LCD  ------------------------------*/
+    /*---------------------------[ Config LCD ]-------------------------------*/
     TRISD = 0x00;
     RD0 = 0;
     Lcd_Init();
@@ -92,6 +98,9 @@ int main()
     TRISB7 = 0;         // RB7 as OUTPUT
     RB3 = 1;
     RB7 = 0;
+    //End.
+    
+    /*-------------------------[ Config for Relay ]----------------------------*/
     TRISB6 = 0;
     RB6 = 1;
     //End.
@@ -135,7 +144,18 @@ int main()
     while(1)
     {
         Read_Temp();
-        
+           
+        Lcd_Clear();
+        sprintf(str, "Set  = %d ", setPoint);
+        Lcd_Set_Cursor(1,1);
+        Lcd_Write_String(str);
+        sprintf(str, "Real = %d ", realValue);        
+        Lcd_Set_Cursor(2,1);
+        Lcd_Write_String(str);
+        sprintf(str, "%d ", PID_value);        
+        Lcd_Set_Cursor(1,12);
+        Lcd_Write_String(str);
+
         if(realValue > setPoint)
         {
             RB6 = 0;
@@ -153,16 +173,6 @@ int main()
             samp = 0;
         }
         
-        Lcd_Clear();
-        sprintf(str, "Set  = %d ", setPoint);
-        Lcd_Set_Cursor(1,1);
-        Lcd_Write_String(str);
-        sprintf(str, "Real = %d ", realValue);        
-        Lcd_Set_Cursor(2,1);
-        Lcd_Write_String(str);
-        sprintf(str, "%d ", PID_value);        
-        Lcd_Set_Cursor(1,12);
-        Lcd_Write_String(str);
     }
     return 0;
 }
@@ -170,13 +180,13 @@ int main()
 void init_ADC (void)// adc
 {
     // chon tan so clock cho bo adc
-    ADCON1bits.ADCS2 = 0, ADCON0bits.ADCS1 = 0,ADCON0bits.ADCS0 = 1;
+    ADCON1bits.ADCS2 = 0, ADCON0bits.ADCS1 = 1,ADCON0bits.ADCS0 = 0;
     // chon kenh adc la kenh AN5 - RE0
     ADCON0bits.CHS2 = 1, ADCON0bits.CHS1 = 0, ADCON0bits.CHS0 = 1;
     // chon cach luu data
     ADCON1bits.ADFM = 1;
     // cau hinh cong vao
-    ADCON1bits.PCFG3 = 1,  ADCON1bits.PCFG2 = 1,  ADCON1bits.PCFG1 = 1,  ADCON1bits.PCFG0 = 0;
+    ADCON1bits.PCFG3 = 0,  ADCON1bits.PCFG2 = 0,  ADCON1bits.PCFG1 = 0,  ADCON1bits.PCFG0 = 0;
     // cap nguon cho khoi adc
     ADCON0bits.ADON = 1;
 }
@@ -202,17 +212,34 @@ void Cal_PID(void)
     //Calculate the I value
     PID_i = PID_i + (ki * PID_error);         
     //Calculate the D value
-    PID_d = kd*(PID_error - previous_error);  
+    PID_d = kd*(PID_error - PID_error_1);  
     //Calculate total PID value
     PID_value = PID_p + PID_i + PID_d;   
    //Store the previous error.
-    previous_error = PID_error;               
+    PID_error_1 = PID_error;               
     if(PID_value < 1600)
         PID_value = 1600;       
     if(PID_value > 8400)
         PID_value = 8400;   
     PID_value = (10000 - PID_value);
-    tmp = PID_value / 100;
+    PID_value = PID_value / 100;
+      
+//    PID_error = setPoint - realValue;
+//    PID_value = PID_value_1;
+//    PID_value = PID_value + (kp + ki*0.5 + kd*2)*PID_error;
+//    PID_value = PID_value + (-kp - 2*kd*2)*PID_error_1;
+//    PID_value = PID_value + kd*2*PID_error_2;
+//    
+//    PID_value_1 = PID_value;
+//    PID_error_2 = PID_error_1;
+//    PID_error_1 = PID_error;
+//    
+//    if(PID_value < 1600)
+//        PID_value = 1600;       
+//    if(PID_value > 8400)
+//        PID_value = 8400; 
+//    PID_value = (10000 - PID_value);
+//    PID_value = PID_value / 100;
 }
 
 void __interrupt() ISR(void)
@@ -221,22 +248,22 @@ void __interrupt() ISR(void)
     {
         if(RB4 == 0) 
         {
-            __delay_ms(180);
+            __delay_ms(100);
             setPoint++;
         }
         if(RB5 == 0)
         {
-            __delay_ms(180);
+            __delay_ms(100);
             setPoint--;
         }
         RBIF = 0;
     }
    
-    if(TMR0IF == 1)        // create 1s interrupt to sampling PID
+    if(TMR0IF == 1)        
     {
         TMR0 = 0x38;
         cnt0++;
-        if(cnt0 == tmp)
+        if(cnt0 == PID_value)
         {
             RB7 = 1;
             __delay_us(10);
@@ -262,7 +289,6 @@ void __interrupt() ISR(void)
         cnt2++;
         if(cnt2 == 1000)
         {
-            RD0 = ~RD0;
             cnt2 = 0;
             samp = 1;
         }
