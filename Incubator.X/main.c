@@ -89,7 +89,6 @@ int main()
     //End.
 
     /*------------------[ Config for Zero Voltage Crossing ]------------------*/
-    
     TRISB0 = 1;         // B0 as INPUT for Interrupt
     //End.
     
@@ -196,7 +195,7 @@ void Read_Temp (void)// doc len 7 doan
     float TempValue = 0;
     ADCON0bits.GO_nDONE = 1;
     while(ADCON0bits.GO_nDONE);
-    TempValue = ADRESH*256 + ADRESL;
+    TempValue = (ADRESH << 8) + ADRESL;
     TempValue = 5000.0f / 1023 * TempValue;
     realValue = TempValue / 10;
 }
