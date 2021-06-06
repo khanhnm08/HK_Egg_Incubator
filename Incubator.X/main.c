@@ -157,12 +157,12 @@ int main()
 
         if(realValue > setPoint)
         {
-            RB6 = 0;
+            RB6 = 0;    // bat relay
             Servo_MoveTo(90);
         }
         else 
         {
-            RB6 = 1;
+            RB6 = 1;    // tat relay 
             Servo_MoveTo(0);
         }
         
